@@ -1,0 +1,35 @@
+{
+  "ragul": {
+    "text": "Ragul",
+    "normalized": "ragul",
+    "proposed_type": "PERSON",
+    "occurrences": 1,
+    "contexts": [
+      "«/ Plain text\n\nRagul Akash\nKryptos Infosys\nChennai.\n\nPython\n\nFastAPI\nPostgreSQL"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-10-02T14:40:07.477721"
+  },
+  "infosys": {
+    "text": "Infosys",
+    "normalized": "infosys",
+    "proposed_type": "ORGANIZATION",
+    "occurrences": 1,
+    "contexts": [
+      "«/ Plain text\n\nRagul Akash\nKryptos Infosys\nChennai.\n\nPython\n\nFastAPI\nPostgreSQL"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-10-02T14:40:07.489057"
+  },
+  "kryptos": {
+    "text": "Kryptos",
+    "normalized": "kryptos",
+    "proposed_type": "PRODUCT",
+    "occurrences": 1,
+    "contexts": [
+      "«/ Plain text\n\nRagul Akash\nKryptos Infosys\nChennai.\n\nPython\n\nFastAPI\nPostgreSQL"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-10-02T14:40:07.499355"
+  }
+}
