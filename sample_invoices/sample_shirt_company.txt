@@ -1,0 +1,28 @@
+The Shirt Company
+2132 Duncan Street
+San Francisco, CA 94131
+United States
+
+INVOICE
+
+Needle & Thread
+3332 Stevens Creek Blvd
+San Jose, CA 95129
+United States
+
+Invoice number: 1001
+PO number: 110
+Invoice date: 14/06/2025
+Due date: 30/06/2025
+
+Product         Unit Price  Quantity  Tax rate  Amount
+White t-shirts  $10.00      50        10%       $500.00
+
+Subtotal: $500.00
+Tax: $50.00
+Invoice total: $550.00
+
+Please make payment to
+Needle & Thread
+88337272222
+Bank of America

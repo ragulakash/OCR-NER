@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Lock and log files
+*.lock
+*.log
+data/candidates/type_learning.lock
+data/training_worker.log
+
+# Dynamic runtime files
+data/candidates/learning_queue.json
+data/datasets/
+data/replay/
+data/memory/
+data/incoming/*
+!data/incoming/.gitkeep
+!data/incoming/1.pdf
+!data/incoming/2.png
+!data/incoming/3.pdf
+!data/incoming/4.png
+!data/incoming/5.png
+
+# Fine-tuned model checkpoints
+models/*
+!models/.gitkeep
+
+# Operating system / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

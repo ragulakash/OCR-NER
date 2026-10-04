@@ -8,41 +8,66 @@ from seqeval.metrics import (
 
 
 def evaluate_predictions(
+
     predictions,
+
     labels,
+
+    id2label,
 ):
 
     predicted_ids = np.argmax(
+
         predictions,
+
         axis=-1,
     )
 
+
     true_predictions = []
+
     true_labels = []
 
+
     for prediction, label in zip(
+
         predicted_ids,
+
         labels,
     ):
 
         current_predictions = []
+
         current_labels = []
 
+
         for pred, true in zip(
+
             prediction,
+
             label,
         ):
 
             if true == -100:
+
                 continue
 
+
             current_predictions.append(
-                str(pred)
+
+                id2label[
+                    int(pred)
+                ]
             )
 
+
             current_labels.append(
-                str(true)
+
+                id2label[
+                    int(true)
+                ]
             )
+
 
         true_predictions.append(
             current_predictions
@@ -52,17 +77,30 @@ def evaluate_predictions(
             current_labels
         )
 
+
     return {
-        "precision": precision_score(
-            true_labels,
-            true_predictions,
-        ),
-        "recall": recall_score(
-            true_labels,
-            true_predictions,
-        ),
-        "f1": f1_score(
-            true_labels,
-            true_predictions,
-        ),
+
+        "precision":
+            precision_score(
+
+                true_labels,
+
+                true_predictions,
+            ),
+
+        "recall":
+            recall_score(
+
+                true_labels,
+
+                true_predictions,
+            ),
+
+        "f1":
+            f1_score(
+
+                true_labels,
+
+                true_predictions,
+            ),
     }

@@ -1,0 +1,30 @@
+============================================================
+                     NON-PO INVOICE
+============================================================
+
+INVOICE NUMBER : INV-2026-90412
+INVOICE DATE   : 2026-10-04
+DUE DATE       : 2026-11-04
+
+VENDOR INFORMATION:
+------------------------------------------------------------
+Company Name   : Arjun Technologies Pvt Ltd
+Address        : 45 Innovation Way, Tech Park, Chennai
+Email          : billing@arjuntech.com
+Phone          : +91-9876543210
+
+BILL TO:
+------------------------------------------------------------
+Customer Name  : Ragul Akash
+Department     : AI Research & Engineering
+
+LINE ITEMS & DESCRIPTION:
+------------------------------------------------------------
+1. Custom Deep Learning Model Tuning         :  35,000 INR
+2. Non-PO Document Intelligence Pipeline Setup :  10,000 INR
+
+------------------------------------------------------------
+NET AMOUNT     : 45,000 INR
+TAX AMOUNT     : 8,100 INR (18% GST)
+TOTAL AMOUNT   : 53,100 INR
+============================================================

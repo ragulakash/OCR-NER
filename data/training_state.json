@@ -1,0 +1,17 @@
+{
+  "status": "rejected",
+  "started_at": null,
+  "completed_at": "2026-10-03T13:34:23.566618",
+  "error": "Not enough training examples. Required=30, Available=4.",
+  "model_version": null,
+  "metrics": {
+    "eval_loss": 0.4790545403957367,
+    "eval_precision": 0.0,
+    "eval_recall": 0.0,
+    "eval_f1": 0.0,
+    "eval_runtime": 0.0732,
+    "eval_samples_per_second": 95.686,
+    "eval_steps_per_second": 27.339,
+    "epoch": 5.0
+  }
+}
